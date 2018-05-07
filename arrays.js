@@ -1,20 +1,20 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 var ferrero = "foo"
  
-function addElementToBeginningOfArray(chocolateBars, candyString){
-  return [candyString, ...chocolateBars];
+function addElementToBeginningOfArray(chocolateBars, ferrerog){
+  return [ferrero, ...chocolateBars];
 }
  
-function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
-  chocolateBars.unshift(candyString);
+function destructivelyAddElementToBeginningOfArray(chocolateBars, ferrero){
+  chocolateBars.unshift(ferrero);
   return chocolateBars;
 }
  
-function addElementToEndOfArray(chocolateBars, candyString){
-  return [...chocolateBars, candyString];
+function addElementToEndOfArray(chocolateBars, ferrero){
+  return [...chocolateBars, ferrero];
 }
  
-function destructivelyAddElementToEndOfArray(chocolateBars, candyString){
+function destructivelyAddElementToEndOfArray(chocolateBars, ferrero){
   chocolateBars.push(candyString);
   return chocolateBars;
 }
